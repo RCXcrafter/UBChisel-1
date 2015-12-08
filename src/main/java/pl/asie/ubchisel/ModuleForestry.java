@@ -1,9 +1,10 @@
 package pl.asie.ubchisel;
 
-import com.cricketcraft.chisel.block.BlockCarvable;
-import com.cricketcraft.chisel.carving.Carving;
-import com.cricketcraft.chisel.init.ChiselBlocks;
-import com.cricketcraft.chisel.init.ChiselTabs;
+import team.chisel.block.BlockCarvable;
+import team.chisel.carving.Carving;
+import team.chisel.init.ChiselBlocks;
+import com.cricketcraft.chisel.api.ChiselTabs;
+
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.init.Blocks;
@@ -21,7 +22,7 @@ public class ModuleForestry extends Module {
 
     private void configPlank(BlockCarvable plank, String n, String woodName, String registerName) {
         String l = n.toLowerCase();
-        plank.carverHelper.setChiselBlockName(n + " Wood Planks");
+//      plank.carverHelper.setChiselBlockName(n + " Wood Planks");
         plank.carverHelper.addVariation("Smooth " + l + " wood planks", 1, "forestry/" + woodName + "/planks/clean", "ubchisel");
         plank.carverHelper.addVariation("Short " + l + " wood planks", 2, "forestry/" + woodName + "/planks/short", "ubchisel");
         plank.carverHelper.addVariation("Fancy " + l + " wood plank arrangement", 6, "forestry/" + woodName + "/planks/fancy", "ubchisel");

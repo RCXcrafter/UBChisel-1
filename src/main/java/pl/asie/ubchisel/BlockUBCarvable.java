@@ -1,6 +1,6 @@
 package pl.asie.ubchisel;
 
-import com.cricketcraft.chisel.block.BlockCarvable;
+import team.chisel.block.BlockCarvable;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.util.StatCollector;

@@ -1,16 +1,15 @@
 package pl.asie.ubchisel;
 
-import com.cricketcraft.chisel.block.BlockCarvable;
-import com.cricketcraft.chisel.block.BlockCarvablePillar;
-import com.cricketcraft.chisel.carving.Carving;
-import com.cricketcraft.chisel.config.Configurations;
-import com.cricketcraft.chisel.init.ChiselTabs;
+import team.chisel.block.BlockCarvable;
+import team.chisel.carving.Carving;
+import team.chisel.config.Configurations;
+import com.cricketcraft.chisel.api.ChiselTabs;
 import cpw.mods.fml.common.Loader;
 import cpw.mods.fml.common.Optional;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.registry.GameRegistry;
-import exterminatorJeff.undergroundBiomes.api.UBIDs;
+//import exterminatorJeff.undergroundBiomes.api.UBIDs;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.init.Blocks;

@@ -1,8 +1,10 @@
 package pl.asie.ubchisel;
 
-import com.cricketcraft.chisel.block.BlockCarvable;
-import com.cricketcraft.chisel.item.ItemCarvable;
+import com.cricketcraft.chisel.api.carving.CarvingUtils;
+
 import net.minecraft.block.Block;
+import team.chisel.block.BlockCarvable;
+import team.chisel.item.ItemCarvable;
 
 import java.util.HashMap;
 

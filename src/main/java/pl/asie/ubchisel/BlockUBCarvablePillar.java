@@ -1,11 +1,15 @@
 package pl.asie.ubchisel;
 
-import com.cricketcraft.chisel.block.BlockCarvablePillar;
+import com.cricketcraft.chisel.api.ChiselTabs.CustomCreativeTab;
+
+import net.minecraft.block.Block;
+//import team.chisel.block.BlockCarvablePillar;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.util.StatCollector;
+import team.chisel.block.BlockCarvable;
 
-public class BlockUBCarvablePillar extends BlockCarvablePillar {
+public class BlockUBCarvablePillar extends BlockCarvable {
 	public BlockUBCarvablePillar(Material material) {
 		super(material);
 	}

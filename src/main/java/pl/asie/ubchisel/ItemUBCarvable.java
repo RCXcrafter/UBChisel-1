@@ -1,6 +1,6 @@
 package pl.asie.ubchisel;
 
-import com.cricketcraft.chisel.item.ItemCarvable;
+import team.chisel.item.ItemCarvable;
 import net.minecraft.block.Block;
 import net.minecraft.item.ItemStack;
 

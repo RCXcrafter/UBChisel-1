@@ -1,8 +1,9 @@
 package pl.asie.ubchisel;
 
-import com.cricketcraft.chisel.block.BlockCarvable;
-import com.cricketcraft.chisel.carving.Carving;
-import com.cricketcraft.chisel.init.ChiselTabs;
+import team.chisel.block.BlockCarvable;
+import team.chisel.carving.Carving;
+import com.cricketcraft.chisel.api.ChiselTabs;
+
 import cpw.mods.fml.common.registry.GameRegistry;
 import exterminatorJeff.undergroundBiomes.api.UBIDs;
 import net.minecraft.block.Block;
